@@ -11,7 +11,7 @@ export default function App() {
       <div>
         <Header />
       </div>
-      <div>
+      <div className="parent">
         <FlashCard
           name={"What is React?"}
           picture={"🧐"}

@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.parent {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
