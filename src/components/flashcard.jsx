@@ -18,7 +18,7 @@ export function FlashCard({ name, picture, answer }) {
 
   return (
     <>
-      <div>
+      <div className={styles.flashcardsContainer}>
         <button className={styles.flashcard} onClick={handleFlip}>
           <p>❌</p>
 
