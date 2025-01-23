@@ -2,13 +2,29 @@
 
 import './App.css'
 
+
+
 function App() {
 
   return (
-    <>
-  <p>HELLO</p>
+    
+  
+      <>
+      <button>
+      ❌
+      </button>
+
+      <p>🧐</p>
+      <p>What is React?</p>
     </>
   )
-}
+  
+    
+    
+  
+  
+  
+  };
+
 
 export default App
