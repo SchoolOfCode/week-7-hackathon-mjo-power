@@ -1,30 +1,30 @@
 //import { useState } from 'react'
 
-import './App.css'
+import "./App.css";
 
-
-
-function App() {
-
+function FlashCard({name, picture, answer}) {
+  
   return (
-    
-  
-      <>
-      <button>
-      ❌
-      </button>
+    <>
+      <button>❌</button>
 
-      <p>🧐</p>
-      <p>What is React?</p>
+      <p>{picture}</p>
+      <p>{name}</p>
+
+
+      <>{answer}</>
     </>
-  )
-  
-    
-    
-  
-  
-  
-  };
+  );
+}
 
+export default function App() {
+  return (
+    <div>
+      <FlashCard name={"Flash card 1"} picture={"🧐"} />
+      <FlashCard name={"Flash card 2"} picture={""}/>
+      <FlashCard name={"Flash card 3"} picture={""}/>
+    </div>
+  );
+}
 
-export default App
+//export default App
