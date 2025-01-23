@@ -12,9 +12,9 @@ export default function App() {
         <Header />
       </div>
       <div>
-        <FlashCard name={"Flash card 1"} picture={"🧐"} />
-        <FlashCard name={"Flash card 2"} picture={"🧐"} />
-        <FlashCard name={"Flash card 3"} picture={"🧐"} />
+        <FlashCard name={"Flash card 1"} picture={"🧐"} answer={"This is the answer 1"}/>
+        <FlashCard name={"Flash card 2"} picture={"🧐"} answer={"This is the answer 2"}/>
+        <FlashCard name={"Flash card 3"} picture={"🧐"} answer={"This is the answer 3"}/>
       </div>
       <div>
         <Footer />
