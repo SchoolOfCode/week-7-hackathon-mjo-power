@@ -1,0 +1,13 @@
+.flashcard {
+  width: 200px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.flashcard-Container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-wrap: wrap;
+  gap: 20px;
+}
