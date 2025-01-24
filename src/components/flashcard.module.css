@@ -1,7 +1,13 @@
 .flashcard {
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   flex-shrink: 0;
+  background-color: slategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  
 }
 
 .flashcard-Container {
