@@ -20,8 +20,7 @@ export function FlashCard({ name, picture, answer }) {
     <>
       <div className={styles.flashcardsContainer}>
         <button className={styles.flashcard} onClick={handleFlip}>
-          <p>❌</p>
-
+          <p className={styles.cross}>❌</p>
           {isFlip ? (
             <p>{answer}</p>
           ) : (
