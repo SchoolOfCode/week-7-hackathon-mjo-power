@@ -2,6 +2,7 @@ import React from "react";
 import { FlashCard } from "./components/flashcard";
 import { Header } from "./components/header";
 import { Footer } from "./components/footer";
+import { Form } from "./components/form";
 
 import "./App.css";
 
@@ -10,6 +11,9 @@ export default function App() {
     <div>
       <div>
         <Header />
+      </div>
+      <div>
+        <Form/>
       </div>
       <div className="parent">
         <FlashCard
